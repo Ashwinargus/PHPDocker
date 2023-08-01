@@ -8,6 +8,7 @@ services:
     volumes:
       - ./public_html:/public_html
       - ./conf.d:/etc/nginx/conf.d
+      - /etc/localtime:/etc/localtime
     networks:
       - nginxphp
 
